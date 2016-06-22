@@ -1,0 +1,8 @@
+.idea
+mdw.iml
+
+/target/
+
+# ignore this file because it contains user name and password for connection to database
+src/main/resources/META-INF/persistence.xml
+
