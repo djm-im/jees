@@ -16,3 +16,25 @@ Edit file _template_persistance.xml:
 * Rename packages
 * Rename in filter
 
+Database dump is in file jees.sql
+
+To create database execute in MySQl
+```sql
+CREATE DATABASE $_DATABASE_NAME_$;
+```
+Where is $_DATABASE_NAME_$ the same as in persistence.xml file 
+
+To insert data in database execute
+```bash
+mysql -u [username] -p $_DATABASE_NAME_$ < jees.sql
+```
+
+After insert database into MySQL server there is account admin/admin
+
+## Run on Openshift 
+
+1. Login in OpenShift
+2. Add Application...
+3. Choose Tomcat
+4. Set up name
+5. 
