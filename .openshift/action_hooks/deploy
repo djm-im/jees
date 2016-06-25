@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/app-root/repo/src/main/resources/META-INF/
+ln -s ~/app-root/data/persistence.xml persistence.xml 
