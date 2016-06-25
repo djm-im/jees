@@ -40,6 +40,7 @@ public class AccessFilter implements Filter {
                 httpRequest.setAttribute("errors", errorMessages);
 
                 httpRequest.getRequestDispatcher("index.jsp").forward(request, response);
+                return;
             }
         }
 
